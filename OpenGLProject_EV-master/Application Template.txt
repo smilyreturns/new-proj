@@ -1,0 +1,54 @@
+///////////////////////////////////////////////////
+//TEMPLATE.H
+//////////////////////////////////////////////////
+
+#ifndef _TEMPLATE_H_
+#define _TEMPLATE_H_
+
+#include "Application.h"
+#include "Camera.h"
+
+class TEMPLATE : public Application
+{
+private:
+	FlyCamera m_flyCamera;
+public:
+	TEMPLATE();
+	virtual bool startup();
+	virtual bool update();
+	virtual void draw();
+	virtual void shutdown();
+};
+
+#endif //_TEMPLATE_H
+
+///////////////////////////////////////////////////
+//TEMPLATE.CPP
+//////////////////////////////////////////////////
+
+#include "TEMPLATE.h"
+
+TEMPLATE::TEMPLATE()
+{
+
+}
+
+bool TEMPLATE::startup()
+{
+
+}
+
+bool TEMPLATE::update()
+{
+
+}
+
+void TEMPLATE::draw()
+{
+
+}
+
+void TEMPLATE::shutdown()
+{
+
+}

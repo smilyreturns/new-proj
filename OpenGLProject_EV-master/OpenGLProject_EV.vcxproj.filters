@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AdvancedTextures">
+      <UniqueIdentifier>{89eeb584-a82d-4a57-9172-b73e042f5cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{c499e20b-14ee-41f2-8a70-0b448cabf61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{7a7b87de-2ec8-4e03-a9f6-4b05bfa109d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IntroToOpenGL">
+      <UniqueIdentifier>{a1e3fe05-e966-480c-a17b-d55e6e6289da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting">
+      <UniqueIdentifier>{633e3d53-b7c9-46cc-abcf-d403f7a7f099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quaternions">
+      <UniqueIdentifier>{16e272b8-e05e-4ab5-8bdd-4acd0ba999a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingGeometry">
+      <UniqueIdentifier>{bb1d3768-d715-4863-9630-b487e42c4c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texturing">
+      <UniqueIdentifier>{5e37c69f-4101-427e-b7b8-0a8cccbab19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{67d29028-f126-426a-829f-aa86e060602c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\shaders">
+      <UniqueIdentifier>{42bb6ec2-c421-46d3-a34f-397ebdbb40f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\shaders\Texturing">
+      <UniqueIdentifier>{19aa1ae7-d074-4a34-bb17-9948d6c0e616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\shaders\RenderingGeometry">
+      <UniqueIdentifier>{b379dd7e-18ec-4f75-819e-7f9b1c64a3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\shaders\Lighting">
+      <UniqueIdentifier>{c2a13694-c8c5-45a1-9d4d-4c5f00325317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\shaders\AdvancedTextures">
+      <UniqueIdentifier>{6121b261-57fe-4278-89e4-7da7835661b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\shaders\Animation">
+      <UniqueIdentifier>{cea058e0-0981-4442-83e4-09be0017501c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CameraAndProjections.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderingGeometry.h">
+      <Filter>RenderingGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texturing.h">
+      <Filter>Texturing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lighting.h">
+      <Filter>Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AdvancedTextures.h">
+      <Filter>AdvancedTextures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utility.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vertex.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tiny_obj_loader.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLM_Header.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gl_core_4_4.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gizmos.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IntroToOpenGL.h">
+      <Filter>IntroToOpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Header.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quaternions.h">
+      <Filter>Quaternions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\GUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lighting.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraAndProjections.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AdvancedTextures.cpp">
+      <Filter>AdvancedTextures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IntroToOpenGL.cpp">
+      <Filter>IntroToOpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quaternions.cpp">
+      <Filter>Quaternions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderingGeometry.cpp">
+      <Filter>RenderingGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texturing.cpp">
+      <Filter>Texturing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gizmos.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gl_core_4_4.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tiny_obj_loader.cc">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\GUI.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\shaders\textured_fragment.glsl">
+      <Filter>Resources\shaders\Texturing</Filter>
+    </None>
+    <None Include="data\shaders\textured_vertex.glsl">
+      <Filter>Resources\shaders\Texturing</Filter>
+    </None>
+    <None Include="data\shaders\lighting_vertex.glsl">
+      <Filter>Resources\shaders\Lighting</Filter>
+    </None>
+    <None Include="data\shaders\lighting_fragment.glsl">
+      <Filter>Resources\shaders\Lighting</Filter>
+    </None>
+    <None Include="data\shaders\normal_mapped_vertex.glsl">
+      <Filter>Resources\shaders\AdvancedTextures</Filter>
+    </None>
+    <None Include="data\shaders\normal_mapped_fragment.glsl">
+      <Filter>Resources\shaders\AdvancedTextures</Filter>
+    </None>
+    <None Include="data\shaders\rendergeometry_fragment.glsl">
+      <Filter>Resources\shaders\RenderingGeometry</Filter>
+    </None>
+    <None Include="data\shaders\rendergeometry_vertex.glsl">
+      <Filter>Resources\shaders\RenderingGeometry</Filter>
+    </None>
+    <None Include="data\shaders\skinned_vertex.glsl">
+      <Filter>Resources\shaders\Animation</Filter>
+    </None>
+    <None Include="data\shaders\skinned_fragment.glsl">
+      <Filter>Resources\shaders\Animation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Application Template.txt" />
+  </ItemGroup>
+</Project>
